@@ -13,7 +13,7 @@ This repository is a collection of various Telegram bots and userbots for any pu
 | [msg_cleaner](./bots/msg_cleaner) | **Userbot** | **Range Deleter.** Wipes your own messages from any chat/group using text phrases as start and end markers. |
 | [music_forwarder](./bots/music_forwarder) | **Userbot** | **Track Migrator.** Transfers songs from external channels to your own, strictly filtering for correct MP3 formats and metadata. |
 | [reply_bot](./bots/reply_bot) | **Userbot** | **Target Auto-Responder.** Automatically sends a predefined reply only to a specific user defined in your settings. |
-| [user_history-extractor](./bots/user_history-extractor) | **Userbot** | **Full History Scraper.** Downloads all messages from a specific user, including deleted accounts, using only their Telegram ID. |
+| [user_history_extractor](./bots/user_history_extractor) | **Userbot** | **Full History Scraper.** Downloads all messages from a specific user, including deleted accounts, using only their Telegram ID. |
 
 ---
 
@@ -35,4 +35,5 @@ The author of these bots and modules assumes **no responsibility** for how these
 [MIT LICENSE](./LICENSE) 
 
 ---
+
 
