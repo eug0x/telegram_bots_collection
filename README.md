@@ -8,12 +8,12 @@ This repository is a collection of various Telegram bots and userbots for any pu
 
 | Bot Name | Type | Description |
 | :--- | :--- | :--- |
-| [music_bot](./bots/music_bot) | **Token Bot** | **Music on Demand.** Downloads and sends any song to a group chat in 10-15 seconds via the `music [name]` command. |
-| [gui_messenger](./bots/gui_messenger) | **Token Bot** | **Direct GUI Messenger.** A desktop interface to send private messages and media to specific users through your bot. |
-| [msg_cleaner](./bots/msg_cleaner) | **Userbot** | **Range Deleter.** Wipes your own messages from any chat/group using text phrases as start and end markers. |
-| [music_forwarder](./bots/music_forwarder) | **Userbot** | **Track Migrator.** Transfers songs from external channels to your own, strictly filtering for correct MP3 formats and metadata. |
-| [reply_bot](./bots/reply_bot) | **Userbot** | **Target Auto-Responder.** Automatically sends a predefined reply only to a specific user defined in your settings. |
-| [user_history_extractor](./bots/user_history_extractor) | **Userbot** | **Full History Scraper.** Downloads all messages from a specific user, including deleted accounts, using only their Telegram ID. |
+| [music_bot](./bots/music_bot) | **Token Bot** | **Efficient Music Downloader.** Uses `yt-dlp` with a smart renaming trick to skip FFmpeg conversion. Features an interactive UI to pick alternative tracks if the first search result is wrong. |
+| [gui_messenger](./bots/gui_messenger) | **Token Bot** | **Desktop Admin Panel.** A PySide6 GUI that allows you to manage bot-to-user conversations, send mass alerts, and share photos directly from your PC without touching code. |
+| [msg_cleaner](./bots/msg_cleaner) | **Userbot** | **Precision History Purge.** Deletes your messages in any chat based on text "checkpoints" (start/end phrases). Includes built-in safety delays to avoid Telegram rate limits. |
+| [music_forwarder](./bots/music_forwarder) | **Userbot** | **DB Populator.** Transfers music between channels with **Fuzzy Matching** (skips duplicates even with different titles) and strict MP3 quality filters. Feeds your music bot's database. |
+| [reply_bot](./bots/reply_bot) | **Userbot** | **Instant Auto-Responder.** A personal assistant that monitors chats and replies to specific users with pre-defined messages instantly using the Telethon MTProto engine. |
+| [user_history_extractor](./bots/user_history-extractor) | **Userbot** | **Forensic History Tool.** Scrapes and recovers message history and media from deleted accounts or hidden profiles using their unique Telegram User ID. |
 
 ---
 
@@ -35,5 +35,3 @@ The author of these bots and modules assumes **no responsibility** for how these
 [MIT LICENSE](./LICENSE) 
 
 ---
-
-
